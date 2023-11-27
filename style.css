@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color: #101010;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main h1{
+    /* color: #ffffff; */
+    padding: 20px;
+}
+.head{
+    background-color: aqua;
+}
+.task{
+    display: flex;
+    margin: 2vh auto;
+    width: 80vw;
+    height: 10vh;
+    background-color: #303030 ;
+    color: #999999;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    font-size: x-large;
+}
+
+.task *{
+    margin: 0 40px;
+}
+
+.task svg{
+    color: aqua;
+}
+.main input{
+    margin: 20px 0;
+    font-size: x-large;
+    width: 55vw;
+    height: 10vh;
+    background-color: #303030;
+    border: 1.75px solid;
+    border-radius: 20px;
+    border-color: aqua ;
+    padding-left: 10px;
+    color: white;
+}
+.main button{
+    font-size: x-large;
+    width: 25vw;
+    height: 10vh;
+    border-radius: 20px;
+    background-color: aqua;
+}

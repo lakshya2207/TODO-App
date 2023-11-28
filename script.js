@@ -1,4 +1,11 @@
-var taskslist=localStorage.getItem("tasks");
+if (localStorage.getItem("tasks")==null){
+    localStorage.setItem("tasks",[])
+    var taskslist=localStorage.getItem("tasks");
+}
+else{
+    var taskslist=localStorage.getItem("tasks");
+}
+
 var tasks=taskslist.split(",");
 console.log(typeof(tasks),tasks)
 for (let i = 1; i < tasks.length; i++) {
